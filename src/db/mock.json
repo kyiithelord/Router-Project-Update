@@ -1,0 +1,86 @@
+{
+  "book": [
+    {
+      "id": "1",
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "slug": "catcher-in-the-rye",
+      "description": "A classic novel about the struggles of adolescence and the search for identity."
+    },
+    {
+      "id": "2",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "slug": "to-kill-a-mockingbird",
+      "description": "Set in the American South, this novel addresses racial injustice and moral growth."
+    },
+    {
+      "id": "3",
+      "title": "1984",
+      "author": "George Orwell",
+      "slug": "1984",
+      "description": "A dystopian novel exploring the dangers of totalitarianism and government surveillance."
+    },
+    {
+      "id": "4",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "slug": "the-great-gatsby",
+      "description": "A portrayal of the American Dream and its corruption during the Jazz Age."
+    },
+    {
+      "id": "5",
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "slug": "harry-potter-sorcerers-stone",
+      "description": "The first book in the beloved fantasy series about a young wizard's journey."
+    },
+    {
+      "id": "6",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "slug": "the-hobbit",
+      "description": "An adventurous tale of a hobbit named Bilbo Baggins and his quest for treasure."
+    },
+    {
+      "id": "7",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "slug": "pride-and-prejudice",
+      "description": "A classic romance novel exploring societal expectations and individualism."
+    },
+    {
+      "id": "8",
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "slug": "the-da-vinci-code",
+      "description": "A thrilling mystery involving art, history, and hidden secrets."
+    },
+    {
+      "id": "9",
+      "title": "The Hunger Games",
+      "author": "Suzanne Collins",
+      "slug": "the-hunger-games",
+      "description": "A dystopian novel where teenagers are forced to participate in a televised fight to the death."
+    },
+    {
+      "id": "10",
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "slug": "the-alchemist",
+      "description": "A philosophical novel about a young shepherd's journey to find his personal legend."
+    }
+  ],
+  "author": [
+    { "id": "1", "name": "William Shakespeare" },
+    { "id": "2", "name": "Jane Austen" },
+    { "id": "3", "name": "Charles Dickens" },
+    { "id": "4", "name": "J.K. Rowling" },
+    { "id": "5", "name": "George Orwell" },
+    { "id": "6", "name": "Agatha Christie" },
+    { "id": "7", "name": "Ernest Hemingway" },
+    { "id": "8", "name": "Gabriel García Márquez" },
+    { "id": "9", "name": "Harper Lee" },
+    { "id": "10", "name": "F. Scott Fitzgerald" }
+  ]
+}
