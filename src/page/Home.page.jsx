@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import { BookListComponents } from "../components";
 import useFetch from "../hook/useFetch";
 import { GetBookData } from "../service/book.service";
 import { Link } from "react-router-dom";
+import { ApiContext } from "../store/ApiContext";
 
 const HomePage = () => {
-  const { data, error, loading } = useFetch(GetBookData, "book");
+  const { data, error, loading } = useContext(ApiContext);
   return (
     <div className="">
       {loading ? (
