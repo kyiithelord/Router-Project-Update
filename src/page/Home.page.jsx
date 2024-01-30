@@ -13,7 +13,7 @@ const HomePage = () => {
       ) : (
         <div className="flex flex-wrap justify-between">
           {data.map((i) => (
-            <Link key={i.id} to={`/detail/${i.id}`}>
+            <Link key={i.id} to={`/detail/${i.slug}`}>
               <BookListComponents data={i} />
             </Link>
           ))}
