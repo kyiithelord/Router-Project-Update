@@ -9,9 +9,7 @@ const DashboardPage = () => {
           <Link to="/dashboard">
             <li>Dashboard</li>
           </Link>
-          <Link to="/dashboard/inventory">
-            <li>Inventory</li>
-          </Link>
+
           <Link to="/dashboard/user">
             <li>User</li>
           </Link>

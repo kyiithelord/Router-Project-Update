@@ -25,7 +25,7 @@ const App = () => {
         {/* <Route path="/detail/:id" element={<DetailBookPage />} /> */}
         <Route path="/detail/:slug" element={<DetailBookPage />} />
         <Route path="/dashboard" element={<DashboardPage />}>
-          <Route path="inventory" element={<InventoryPage />} />
+          <Route index element={<InventoryPage />} />
           <Route path="blog" element={<BlogPage />} />
           <Route path="user" element={<UserPage />} />
         </Route>
